@@ -9,7 +9,7 @@ box-sizing: border-box;}
 
 
 html{font-family: "Libre Franklin", serif;}
-header{ background-color: rgb(127, 255, 212);
+header{ background-color: aquamarine;
         display: flex;
         flex-direction: row;
          justify-content: space-between;
@@ -38,12 +38,12 @@ background-color: rgb(82, 123, 123);
 p{color: aquamarine;
     text-align: center;
     font-size: 1.5rem;
-    margin: 20px 0px;}
+    margin: 20px 0px;
 
 
+}
 
-
-h1{color: #92d7c0;
+h1{color: rgb(146, 215, 192);
 text-align: center;
 font-size: 3rem;
 }
@@ -59,14 +59,13 @@ margin: 50px;
 
 h5{color: rgb(52, 177, 131);
     text-align: center;
-    font-size: 1.5rem; text-decoration: underline;
+    font-size: 1.8rem; text-decoration: underline;
     
 
-    
 }
 h6{color: aquamarine;
     text-align: center;
-    font-size: 1.5rem
+    font-size: 1rem
 
 }
 
@@ -74,7 +73,6 @@ header img {
 border-radius: 143px 143px 143px 143px;
     width: 100px;
     margin: 30px;
-    
     
 }
 
@@ -101,11 +99,9 @@ footer{
 
 }
 
-
 .banner { background-image: url(../imagenes/banner2.jpg);
-    height: 135px;
-    padding: 120px 0px;}
-
+height: 135px;
+padding: 120px 0px;}
 
 .alinear{
     width: 400px;
@@ -131,24 +127,11 @@ text-align: center;
 text-shadow: 17px 15px 3px rgba(0,0,0,0.6);
 }
 
-.parrafo-contacto {color: rgb(11, 11, 11); text-align: left; font-size: 1rem;}
-.parrafo-productos {color: rgb(11, 11, 11);
+.parrafo-contacto {color: black; text-align: left; font-size: 1rem;}
+.parrafo-productos {color: black;
                         text-align: center;}
-.animacion{transition: 1s;}
- 
-.animacion:hover{transform: translatex(100px);}  
-                        
-.transicion {transition: 4s;
-    text-align: center;
-    font-size: 1,5rem;
-     }
 
-.transicion:hover{
-    transform: rotate(10deg);
-}
-
-
-
+                       
     /*marcas*/
 .contenedor-grid img{
         width: 80%;
@@ -184,7 +167,7 @@ align-items: center ;
 .grid-img-1{ grid-area: imagen1; border-radius: 5%; }
     
 
- .grid-texto-1{grid-area: texto1
+ .grid-texto-1{grid-area: texto1; ;
     }
 
    
@@ -244,5 +227,7 @@ align-items: center ;
     
 
 .whatsapp {text-align: center;}
+
+
 
 
