@@ -1,0 +1,47 @@
+.contenedor-grid img{
+    width: 80%;
+    height: 80%;
+}
+
+.contenedor-grid{
+
+display: grid;
+grid-template-areas: 
+"titulo titulo titulo"
+"imagen1 texto1 texto1"
+"imagen1 imagen2 imagen3"
+"texto2 imagen4 texto3"
+;
+grid-template-columns:
+30% 35% 30%;
+
+grid-auto-rows:
+50px 300px 150px 150px
+;
+justify-content: center;
+justify-items: center;
+align-items: center ;
+    }  
+
+.titulo-grid {
+        grid-area:titulo;
+      
+    }
+
+.grid-img-1{ grid-area: imagen1; border-radius: 5%; }
+    
+
+ .grid-texto-1{grid-area: texto1
+    }
+
+   
+ .grid-img-2 {grid-area: imagen2;border-radius: 5%}
+
+
+ .grid-img-3 {grid-area: imagen3;border-radius: 5%}
+
+ .grid-texto-2{grid-area: texto2 }
+
+    .grid-img-4 {grid-area: imagen4 ;border-radius: 5%}
+    
+    .grid-texto-3{grid-area: texto3;}

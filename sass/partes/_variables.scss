@@ -1,0 +1,18 @@
+
+$verdeagua: #7fffd4;
+$negro: #000d0b49;
+$fuentenav: verdana, Geneva, Tahoma, sans-serif;
+
+
+.boton {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.icono{
+    @extend .boton;}
+
+@mixin boton-estilo {border-radius: 143px 143px 143px 143px;
+    width: 100px;
+    margin: 30px;}

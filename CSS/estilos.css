@@ -1,0 +1,211 @@
+header {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+header nav {
+  width: 50%;
+}
+header nav ul {
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 10%;
+  font-size: 1rem;
+  text-decoration: none;
+}
+header nav img {
+  border-radius: 143px 143px 143px 143px;
+  width: 100px;
+  margin: 30px;
+}
+header nav a {
+  color: rgba(0, 13, 11, 0.2862745098);
+  text-decoration: none;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+}
+
+main .banner {
+  background-image: url(../imagenes/banner2.jpg);
+  height: 135px;
+  padding: 120px 0px;
+}
+main .banner #testimonios {
+  color: black;
+  text-align: center;
+  text-shadow: 17px 15px 3px rgba(0, 0, 0, 0.6);
+}
+
+footer h1 {
+  font-size: 1rem;
+}
+footer .logowp {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  width: 60px;
+}
+
+.contenedor-grid img {
+  width: 80%;
+  height: 80%;
+}
+
+.contenedor-grid {
+  display: grid;
+  grid-template-areas: "titulo titulo titulo" "imagen1 texto1 texto1" "imagen1 imagen2 imagen3" "texto2 imagen4 texto3";
+  grid-template-columns: 30% 35% 30%;
+  grid-auto-rows: 50px 300px 150px 150px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.titulo-grid {
+  grid-area: titulo;
+}
+
+.grid-img-1 {
+  grid-area: imagen1;
+  border-radius: 5%;
+}
+
+.grid-texto-1 {
+  grid-area: texto1;
+}
+
+.grid-img-2 {
+  grid-area: imagen2;
+  border-radius: 5%;
+}
+
+.grid-img-3 {
+  grid-area: imagen3;
+  border-radius: 5%;
+}
+
+.grid-texto-2 {
+  grid-area: texto2;
+}
+
+.grid-img-4 {
+  grid-area: imagen4;
+  border-radius: 5%;
+}
+
+.grid-texto-3 {
+  grid-area: texto3;
+}
+
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  header img {
+    width: 50px;
+  }
+  nav {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedor-grid {
+    grid-template-areas: "titulo" "texto1" "imagen1" "texto2" "imagen3" "texto3";
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 150px 150px 150px;
+    text-align: center;
+  }
+  .grid-img-2 {
+    display: none;
+  }
+  footer div {
+    width: 50%;
+  }
+}
+header {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(82, 123, 123);
+}
+
+p {
+  color: #7fffd4;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 20px 0px;
+}
+
+h1 {
+  color: rgb(146, 215, 192);
+  text-align: center;
+  font-size: 3rem;
+}
+
+h2 {
+  color: rgba(1, 20, 18, 0.285);
+  margin: 70px;
+  font-size: 2rem;
+}
+
+section {
+  margin: 50px;
+}
+
+h5 {
+  color: rgb(52, 177, 131);
+  text-align: center;
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+
+h6 {
+  color: aquamarine;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.alinear {
+  width: 400px;
+  height: 350px;
+  margin: 0px 5px;
+  align-items: center;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icono {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsapp {
+  text-align: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */

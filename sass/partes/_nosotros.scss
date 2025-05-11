@@ -1,0 +1,31 @@
+header { background-color: aquamarine;
+        display: flex;
+        flex-direction: row;
+         justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+       
+
+        nav {   width: 50%;
+           
+            ul{ list-style-type: none;
+                height: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                margin-right: 10%;
+                font-size: 1rem;
+                text-decoration: none; 
+            }
+            
+            img {
+                @include boton-estilo;}
+            a{ color: $negro;
+                    text-decoration: none;
+                    font-family: $fuentenav
+                 } 
+                  
+             
+            }
+        }

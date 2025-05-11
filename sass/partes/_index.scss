@@ -1,0 +1,70 @@
+
+
+
+header { background-color: aquamarine;
+        display: flex;
+        flex-direction: row;
+         justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+       
+
+        nav {   width: 50%;
+           
+            ul{ list-style-type: none;
+                height: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                margin-right: 10%;
+                font-size: 1rem;
+                text-decoration: none; 
+            }
+            
+            img {
+                @include boton-estilo;}
+            a{ color: $negro;
+                    text-decoration: none;
+                    font-family: $fuentenav
+                 } 
+                  
+             
+            }
+        }
+         
+           
+        
+
+main{ .banner { background-image: url(../imagenes/banner2.jpg);
+
+    height: 135px;
+    padding: 120px 0px;
+    #testimonios {color: black;
+        text-align: center;
+        text-shadow: 17px 15px 3px rgba(0,0,0,0.6);
+        }
+.transicion {transition: 4s;
+    text-align: center;
+    font-size: 1,5rem;
+     }
+
+.transicion:hover{
+    transform: rotate(10deg);
+}
+.animacion{transition: 1s;}
+ 
+.animacion:hover{transform: translatex(100px);} 
+}
+
+    footer{
+   
+        h1 { 
+        font-size: 1rem;}
+        .logowp {position: fixed;
+            bottom: 70px;
+            right: 20px;
+            width: 60px;
+        
+        }
+    }}
